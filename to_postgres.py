@@ -21,7 +21,7 @@ SQL_INSERT = """INSERT INTO knmi_data (
     global_solar_radiation,
     precipitation_rate,
     duration_of_sunshine,
-    dew_point_temperature,
+    dew_point_temperature
 ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);"""
 
 
